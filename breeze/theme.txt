@@ -8,7 +8,7 @@
 desktop-image: "background.png"
 
 # colors are taken from the breeze default theme
-title-text: "Select OS to boot"
+title-text: "Choose your weapon"
 title-font: "Terminus 18"
 title-color: "#fcfcfc"
 message-font: "Terminus 18"
@@ -17,8 +17,8 @@ terminal-font: "Terminus 18"
 terminal-box: "terminal_*.png"
 
 + boot_menu {
-  left = 30%
-  width = 40%
+  left = 25%
+  width = 50%
   top = 33%
   height = 33%
 
@@ -29,7 +29,8 @@ terminal-box: "terminal_*.png"
   item_color = "#7f8c8d"
   item_height = 44
   item_icon_space = 8
-  item_spacing = 2
+  item_spacing = 5
+  item_padding = 5
 
   selected_item_font = "Terminus 18"
   selected_item_color= "#fcfcfc"
@@ -47,12 +48,12 @@ terminal-box: "terminal_*.png"
   id = "__timeout__"
   left = 33%
   width = 33%
-  top = 70%
+  top = 90%
   height = 8
   show_text = false
   text = ""
   font = "Terminus 12"
-  fg_color = #3daee9
+  fg_color = #ec4a75
   bg_color = #31363b
   border_color = #4d4d4d
 }
